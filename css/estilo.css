@@ -110,6 +110,10 @@ body {
   object-fit: contain;
 }
 
+.carousel-indicators button {
+  display: none;
+}
+
 .carousel-indicators [data-bs-target] {
   width: 3%; 
   height: 0.5%; 
@@ -132,3 +136,44 @@ body {
 .carousel-item {
   transition: transform 0.6s ease-in-out;
 }
+
+.form-check {
+  text-align: left;
+}
+
+.form-check-input {
+  display: none;
+}
+
+.form-check-label {
+  display: inline-block;
+  padding: 8px 16px;
+  margin: 0;
+  border-radius: 50px;
+  background-color: #7a5c38;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.form-check-label:hover {
+  background-color: #5a4029;
+  transform: scale(1.05); 
+}
+
+.form-check-input:checked + .form-check-label {
+  background-color: #4b321c;
+  color: white;
+}
+
+.form-check-label {
+  border: 2px solid transparent;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.form-check-input:checked + .form-check-label {
+  border-color: #4b321c; 
+  box-shadow: 0 2px 5px rgba(0, 128, 0, 0.3);
+}
+

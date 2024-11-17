@@ -6,6 +6,8 @@ function atualizarEstoque() {
     document.getElementById("estoque-produto1").innerText = estoque;
     document.getElementById("estoque-produto2").innerText = estoque;
     document.getElementById("estoque-produto3").innerText = estoque;
+    document.getElementById("estoque-produto4").innerText = estoque;
+    document.getElementById("estoque-produto5").innerText = estoque;
 }
 
 function reservarProduto() {
