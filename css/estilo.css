@@ -22,13 +22,13 @@ body {
 }
 
 .navbar-brand img {
-  width: 10%; 
+  width: 5%; 
   height: auto;
 }
 
 @media (max-width: 768px) {
   .navbar-brand img {
-    width: 50%; 
+    width: 20%; 
   }
 }
 
@@ -150,7 +150,7 @@ body {
   padding: 8px 16px;
   margin: 0;
   border-radius: 50px;
-  background-color: #7a5c38;
+  background-color: #6d5335;
   color: white;
   font-weight: bold;
   cursor: pointer;
@@ -192,13 +192,13 @@ form select {
 
 form input:focus,
 form select:focus {
-  border-color: #7a5c38;
+  border-color: #6d5335;
   outline: none;
   box-shadow: 0 0 5px rgba(122, 92, 56, 0.5);
 }
 
 button[type="submit"] {
-  background-color: #7a5c38;
+  background-color: #6d5335;
   color: #fff;
   border: none;
   border-radius: 8px;
